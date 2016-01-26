@@ -1,0 +1,133 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.org.metter.hitogether_android.ActDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/item3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="#fad689">
+
+            <RelativeLayout
+                android:id="@+id/item2"
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <LinearLayout
+                    android:id="@+id/item1"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/time"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2015.10.12  18:00:00"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="#FFF"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/item1"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/house"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="浙大玉泉校区1897"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:textColor="#FFF"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电影"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFF"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/icon_about_lagouman"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item3"
+            android:layout_toRightOf="@+id/imageView">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请不要叫我小黄"
+                android:textColor="#000"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="信电学院"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="研一"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

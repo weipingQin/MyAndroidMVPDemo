@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_screen_bg"
+    tools:context="cn.org.metter.hitogether_android.LoginActivity">
+
+    <ImageView
+        android:id="@+id/activity_login_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_login"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_below="@+id/activity_login_icon"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <cn.org.metter.hitogether_android.view.InputView
+            android:id="@+id/activity_login_inputview_username"
+            xmlns:my="http://schemas.android.com/apk/res/cn.org.metter.hitogether_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            my:hintput="请输入您的账号"
+            my:picFor="@drawable/icon_email"/>
+
+        <cn.org.metter.hitogether_android.view.InputView
+            xmlns:my="http://schemas.android.com/apk/res/cn.org.metter.hitogether_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            my:hintput="请输入密码"
+            my:picFor="@drawable/icon_password"/>
+
+        <ImageView
+            android:id="@+id/btnSee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/btn_pre_see"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

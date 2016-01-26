@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="InputAttrs">
+        <attr name="hintput" format="string" />
+        <attr name="usefor" format="string" />
+        <attr name="picFor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TopIndicator">
+        <attr name="top_labels" format="reference" />
+    </declare-styleable>
+
+
+
+</resources>
